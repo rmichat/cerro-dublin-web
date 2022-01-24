@@ -34,7 +34,7 @@ h1 {
   display: flex;
   padding: 0;
   position: absolute;
-  top: 67%;
+  top: 66%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
 }
@@ -42,14 +42,14 @@ h1 {
 a {
   /*TAMAÑO ICONOS*/
   font-size: 3vh;
-  margin: 2vw;
+  margin: 3vw;
   justify-content: space-evenly;
   color: #e8c792;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 650px) {
   h1 {
-    font-size: 2.1rem;
+    font-size: 2.8rem;
   }
   a {
     font-size: 3vh;
